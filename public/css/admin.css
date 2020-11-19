@@ -1,0 +1,97 @@
+.sidebar {
+    height: 100%;
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.sidebar-header {
+    padding: 10px;
+    background: #333;
+    color:white;
+    text-align: center;
+}
+
+.sidebar-body {
+}
+
+.sidebar-body ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sidebar-body ul li {
+    padding: 0px 40px;
+    margin-top:20px;
+}
+.card-img-top {
+    height: 500px;
+}
+
+table td, table th {
+    text-align: center;
+}
+
+@media(max-width: 1440px) {
+    .card-img-top {
+        height: 500px;
+    }
+}
+
+
+@media(max-width: 1199px) {
+    .user-area img.user-avatar {
+        width: 40px;
+        height: 40px !important;
+    }
+}
+
+@media(max-width: 1024px) {
+    .card-img-top {
+        height: 225px;
+    }
+    .right-panel {
+        margin-left: 84px;
+    }
+
+    .stat-widget-five .stat-content {
+        margin-left: 45px;
+    }
+    .stat-widget-five .stat-icon {
+        font-size: 25px;
+        padding-top: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-panel header.header {
+        padding-top: 6px;
+    }
+
+    .right-panel .menutoggle {
+        padding-top: 17px;
+    }
+
+    #feature_signup.card {
+        padding-top: 45px !important;
+    }
+}
+
+@media(max-width: 425px) {
+    .stat-widget-five .stat-icon {
+        font-size: 50px;
+    }
+
+    .stat-widget-five .stat-content {
+        margin-left: 85px;
+    }
+
+    .card-img-top {
+        height: 350px;
+    }
+}
+
+@media(max-width: 375px) {
+    .rewards-row {
+        padding: 10px !important;
+    }
+}

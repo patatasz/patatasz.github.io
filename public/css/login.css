@@ -1,0 +1,12 @@
+#log-in-page {
+    padding-top:150px;
+}
+
+#log-in-page .card {
+    width:400px;
+    margin:auto;
+}
+
+section#log-in-page {
+    min-height: 100vh;
+}
