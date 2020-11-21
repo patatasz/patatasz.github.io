@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'Museo';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Museo'), url(../fonts/Museo300-Regular.woff) format('woff');
+}
+*{margin: 0;padding: 0;}
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	padding-top: 100px;
+	font-family:'Museo';
+}
+.hervetica{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  
+}
+.btn {
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.title-head{
+	background-color: #0181D5;
+	font-size: 14px;
+	color: white;
+	padding:5px;
+}
+.container {
+	max-width: 1024px;	
+}
+.service-icon {
+    padding-top: 20px;
+    margin-bottom:10px;
+}
+.service-icon img{
+    max-height: 50px;
+}
+.section-title {
+    padding: 10px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #f9ca3a;
+    font-size: 24px;
+    text-align: center;
+}
+.divider {
+    border-top: 1px solid #eee;
+    margin: 20px 0px;
+    box-shadow: 0px 1px 0px rgb(255, 255, 255) inset;
+    overflow: visible;
+}
+.divider > span {
+    width: 46px;
+    background: url('../img/divider-center.png') no-repeat scroll center center #fff;
+    height: 8px;
+    display: block;
+    margin: -4px auto 0px;
+}
+.divider > title {
+    width: 180px;
+    background: #fff;
+    height: 20px;
+    display: block;
+    margin: -20px auto 0px;
+}
+.header-status{
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    background: #fff;
+    border-radius: 99em;
+    position: inherit;
+    -webkit-box-shadow: 0 16px 14px -14px black;
+    -moz-box-shadow: 0 16px 14px -14px black;
+    box-shadow: 0 16px 14px -14px black;
+}
+.header-status img{
+    width: 100px;
+    border-radius: 99em;
+    border: 3px #ddd solid;
+}
+.panel-status{
+    margin-top: -40px;
+    -webkit-box-shadow: 0 16px 14px -14px black;
+    -moz-box-shadow: 0 16px 14px -14px black;
+    box-shadow: 0 16px 14px -14px black;
+    margin-bottom: 30px;
+}
+.panel-status-body{
+    padding-top: 60px;
+}
+.panel-status-body table{
+    font-size: 14px;
+}
+.blog-footer {
+	margin-top: 60px;
+	padding: 40px 0;
+	color: #999;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.table-borderless tbody tr td,
+.table-borderless tbody tr th,
+.table-borderless thead tr th,
+.table-borderless thead tr td,
+.table-borderless tfoot tr th,
+.table-borderless tfoot tr td {
+    border: none;
+}
